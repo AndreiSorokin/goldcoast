@@ -1,0 +1,17 @@
+# env
+.env
+.env.*
+!.env.example
+
+# deps & build
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# prisma generated client
+src/generated/
+
+# logs & os
+*.log
+.DS_Store
